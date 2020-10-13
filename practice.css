@@ -1,0 +1,382 @@
+.clear{
+    clear: both;
+}
+
+.main{
+    position: relative;
+    margin: px solid red;
+
+}
+.header{
+    width: 100%;
+    background-color: #00004d;
+    height:80px; 
+    z-index: 0;
+}
+.middle{
+    position: absolute;
+    top:0;
+    left: 7%;
+    right: 7%;
+    width: 86%;
+    z-index: 1;
+    border:px solid black;
+    }
+.photo img{
+    z-index: -3;
+    width: 100%;
+    height: 420px;
+    }
+.tophead{
+    color:white;
+    height: 80px;
+    border: px solid black;
+}
+.pehla{
+    width: 448px;
+    height: 100%;
+    float: left;
+    font-family: sans-serif;
+    border:px solid red;
+}
+.dusra{
+    width: 450px;
+    height: 100%;
+    float: right;
+    border:px solid green;
+}
+.dusra ul {
+  border:px solid orange; 
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #00004d;
+}
+.dusra li{
+    float: left;
+}
+.dusra li a:link, a:visited {
+  border:px solid red;
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+  padding: 30px 15px 30px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  border-top:5px solid transparent; 
+
+}
+.dusra  li a:hover, a:active {
+    border-top:5px solid orange; 
+    background-color:  #000033;
+}
+.seconddiv{
+    height: 280px;
+    border:px solid red; 
+    color: white;
+    border-bottom:6px solid  #e68a00; 
+}
+.enclosure{
+    background-color:white; 
+    border:px solid  #b3b3b3;
+    padding: 20px 15px 25px 15px;
+        box-shadow: 5px 0 4px -5px grey, -5px 0 4px -5px grey;
+
+}
+.thirddiv{
+    color: white;
+    border:px solid red; 
+    font-family: sans-serif;
+}
+.number1{
+    border:px solid green; 
+    height: 220px;
+    margin: -10px auto 25px auto;
+    display: flex;
+    justify-content: center;
+    line-height: 20px;
+}
+.services1{
+    width: 22%;
+    float: left;
+    border:px solid orange; 
+    color:  #808080;
+    padding: 8px;
+    font-size: 13px;
+
+}
+.services1 a:link, a:visited {
+  color: white;
+  background-color: black;
+  padding: 5px 10px 5px 10px ;
+  text-align: center;
+  font-size: 13px;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.marketing1{
+   width:22%;
+    float: left;
+    color:  #808080;
+    padding: 25px 8px 8px 8px;
+    font-size: 13px;
+    border:px solid orange;
+}
+.design1{
+   width:22%;
+    float: left;
+    color:  #808080;
+    padding: 25px 8px 8px 8px;
+    font-size: 13px;
+    border:px solid orange;
+}
+.development1{
+   width:22%;
+    float: left;
+    color:  #808080;
+    padding: 25px 8px 8px 8px;
+    font-size: 13px;
+    border:px solid orange;
+}
+.number2{
+    border:px solid green; 
+  padding: 0 0 0 20px ;
+    line-height: 20px;
+
+}
+.number2 img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 220px;
+  vertical-align: middle;
+  padding:30px 10px 60px 10px ;
+  display: flex;
+  justify-content: left;
+
+}
+.services2{
+    width:22%; 
+    padding-left:17px;
+    float: left;
+    border:px solid orange; 
+    color:  #808080 ;
+    font-size: 12px;
+}
+
+.services2 a:link, a:visited {
+  color: white;
+  background-color: black;
+  padding: 5px 10px 5px 10px ;
+  text-align: center;
+  font-size: 13px;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+}
+.marketing2{
+   max-width:23%;
+    float: left;
+    margin-left:5px;
+    margin-right: 5px;
+    border:px solid orange;
+}
+.design2{
+   max-width:23%;
+    float: left;
+    margin-left:5px;
+    margin-right: 5px;
+    border:px solid orange;
+}
+.development2{
+   max-width:23%;
+    float: left;
+    margin-left:5px;
+    margin-right: 5px;
+    border:px solid orange;
+}
+.number3{
+    border:px solid green; 
+    color:#a6a6a6;
+    margin:0px 15px 15px 15px;
+}
+.sermar{
+    width:47%;
+    float: left;
+    margin: 7px;
+    border:px solid red;
+}
+
+.sermar2{
+    box-sizing: border-box;
+    width:47%;
+    float: left;
+    margin: 7px ;
+    border:px solid red;
+    font-family: sans-serif;
+}
+.sermar2 ul{
+    margin: auto;
+    float: right;
+    display: inline-block;
+    list-style-type: none;
+    font-size: 8px;
+    font-style: italic;
+    color: orange;
+}
+.sermar2 li{
+    float: left;
+    padding:0 3px 0 3px ;
+    border:px solid black; 
+}
+.services3{
+    width:100%;
+    float: left;
+    border:px solid orange; 
+    color: #a6a6a6;
+}
+.sermar ul{
+    margin: auto;
+    float: right;
+    display: inline-block;
+    list-style-type: none;
+    font-size: 8px;
+    font-style: italic;
+    color: orange;
+}
+.sermar li{
+    float: left;
+    padding:0 3px 0 3px ;
+    border:px solid black; 
+}
+
+.marketing3{
+   width:100%;
+    float: left;
+    border:px solid orange;
+    color: #a6a6a6;
+}
+.services3 img {
+    height: 80px;
+    width:80px;
+}
+.marketing3 img {
+    height: 80px;
+    width:80px;
+}
+
+.design3{
+   max-width:25%;
+    float: left;
+    height: 250px;
+    border:px solid orange;
+    color: #a6a6a6;
+}
+.development3{
+   max-width:25%;
+    height: 250px;
+    float: left;
+    border:px solid orange;
+    color: #a6a6a6;
+}
+
+.forthdiv{
+    color: white;
+    border:px solid orange;
+    background-color:#262626;
+    padding-left: 15px;
+    padding-bottom: 30px;
+    font-family: sans-serif;
+    box-shadow: 5px 0 4px -5px black, -5px 0 4px -5px black,0 6px 4px -5px black;
+
+}
+.fifthdiv{
+    height: 50px;
+    border:px solid purple;
+}
+.helloweare{
+    width: 370px;
+    line-height: 10px;
+    margin: 70px auto auto auto;
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color:  white;
+    padding-bottom: 0px;
+}
+.helloweare span{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+.fancedesign{
+    width: 370px;
+    margin: auto;
+    padding-top:30px;
+    padding-bottom: 20px; 
+    font-family: sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    color:   white;
+}
+.trust{
+    width: 500px;
+    height: 60px;
+    line-height: 20px;
+    margin: auto;
+    font-family: sans-serif;
+    font-size: 27px;
+    text-align: center;
+    color:   white;
+}
+.trust span{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 27px;
+}
+
+.number4{
+    border:px solid green; 
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    line-height: 20px;
+}
+.services4{
+    width: 22%;
+    float: left;
+    border:px solid orange; 
+    color:  white;
+    padding: 15px;
+    font-size: 13px;
+
+}
+.marketing4{
+   width:22%;
+    float: left;
+    color:  white;
+    padding: 15px;
+    font-size: 13px;
+    border:px solid orange;
+}
+.design4{
+   width:22%;
+    float: left;
+    color:  white;
+    padding: 15px;
+    font-size: 13px;
+    border:px solid orange;
+}
+.development4{
+   width:22%;
+    float: left;
+    color:  white;
+    padding: 15px;
+    font-size: 13px;
+    border:px solid orange;
+}
