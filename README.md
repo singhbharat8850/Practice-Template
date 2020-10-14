@@ -1,1 +1,6 @@
-Here Image-practice.png is the required output.
+TITLE: A WEBPAGE TEMPLATE
+REQUIRED OUTPUT: HERE PRACTICE.PNG IS THE REQUIRED OUTPUT.
+CONTENTS:
+  HTML FILE: practice.html
+  CSS FILE: practice.css
+  IMAGES FOLDER: /images
